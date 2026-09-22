@@ -1,0 +1,8 @@
+{
+  "mvmt_v": 2.85,
+  "accel_rate": 1.9,
+  "friction_val": 0.01,
+  "stamina_bypass": true,
+  "velocity_cap": 999,
+  "is_active": true
+}
