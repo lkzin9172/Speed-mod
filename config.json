@@ -1,23 +1,23 @@
 {
-  "esp_settings": {
-    "box_mode": "solid_outline",
-    "box_color": "#8A2BE2",
-    "box_opacity": 0.85,
-    "see_through_wall": true,
-    "distance_display": true
+  "server_id": "v2_pro_mod",
+  "instruction_set": {
+    "esp_module": {
+      "color": "#8A2BE2",
+      "wall_hack": true,
+      "box_render": true,
+      "opacity": 0.9
+    },
+    "aimbot_module": {
+      "target": "head",
+      "lock_strength": 1.0,
+      "smooth_speed": 0.15,
+      "fov_range": 180
+    },
+    "bypass_module": {
+      "anti_blacklist": true,
+      "signature_mask": true,
+      "stealth_mode": true
+    }
   },
-  "aimbot_settings": {
-    "aim_lock_mode": "magnetic_head",
-    "target_bone_id": 3201,
-    "aim_velocity": 2.8,
-    "aim_smoothness": 0.15,
-    "fov_radius": 180,
-    "auto_drag_assist": true
-  },
-  "bypass_settings": {
-    "anti_blacklist": true,
-    "signature_spoof": true,
-    "stealth_mode": true,
-    "memory_protection": "enabled"
-  }
+  "sync_protocol": "direct_memory_inject"
 }
