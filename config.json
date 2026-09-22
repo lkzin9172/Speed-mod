@@ -1,28 +1,28 @@
 {
-  "server_engine": {
-    "route": "/Android/data/com.dts.freefireth/files/",
-    "injection_mode": "direct_memory_write",
-    "sync_rate": "realtime"
-  },
-  "esp_module": {
-    "enabled": true,
-    "color": "#8A2BE2",
-    "wall_hack": true,
-    "box_render": "solid",
-    "opacity": 1.0,
-    "see_through_wall": true
-  },
-  "aimbot_module": {
-    "enabled": true,
-    "target_bone_id": 3201,
-    "aim_velocity": 4.5,
-    "aim_smoothness": 0.05,
-    "fov_radius": 180,
-    "auto_headshot": true
-  },
-  "bypass_module": {
-    "anti_blacklist": true,
-    "signature_masking": true,
-    "stealth_mode": true
+  "remote_payload": {
+    "injection_type": "http_remote_inject",
+    "target_engine": "com.dts.freefireth",
+    "modules": {
+      "aimbot_hs_peito": {
+        "enabled": true,
+        "bone_id": 3201,
+        "velocity": 4.5,
+        "smoothness": 0.1,
+        "lock_type": "magnetic"
+      },
+      "antena_laser_roxa": {
+        "enabled": true,
+        "color_hex": "#8A2BE2",
+        "opacity": 1.0,
+        "render_mode": "overlay"
+      },
+      "bypass_system": {
+        "anti_blacklist": true,
+        "signature_mask": true,
+        "stealth_mode": true,
+        "protection_level": "max"
+      }
+    },
+    "server_sync": "realtime_active"
   }
 }
