@@ -1,26 +1,23 @@
 {
   "esp_settings": {
-    "box_enabled": true,
+    "box_mode": "solid_outline",
     "box_color": "#8A2BE2",
-    "box_thickness": 1.5,
+    "box_opacity": 0.85,
     "see_through_wall": true,
-    "outline_mode": "solid",
-    "esp_type": "player_skeleton_box"
+    "distance_display": true
   },
   "aimbot_settings": {
-    "aim_mode": "smooth_headshot",
-    "target_bone": "head",
-    "aim_lock_strength": 0.95,
-    "aim_smooth": 0.12,
+    "aim_lock_mode": "magnetic_head",
+    "target_bone_id": 3201,
+    "aim_velocity": 2.8,
+    "aim_smoothness": 0.15,
     "fov_radius": 180,
-    "auto_drag_assist": true,
-    "recoil_control": 1.0
+    "auto_drag_assist": true
   },
   "bypass_settings": {
     "anti_blacklist": true,
-    "encryption_bypass": "aes-256",
-    "stealth_mode": true,
     "signature_spoof": true,
+    "stealth_mode": true,
     "memory_protection": "enabled"
   }
 }
