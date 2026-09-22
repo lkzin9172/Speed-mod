@@ -10,8 +10,7 @@
     "wall_hack": true,
     "box_render": "solid",
     "opacity": 1.0,
-    "see_through_wall": true,
-    "outline_thickness": 1.5
+    "see_through_wall": true
   },
   "aimbot_module": {
     "enabled": true,
@@ -19,14 +18,11 @@
     "aim_velocity": 4.5,
     "aim_smoothness": 0.05,
     "fov_radius": 180,
-    "auto_headshot": true,
-    "recoil_suppression": 1.0
+    "auto_headshot": true
   },
   "bypass_module": {
     "anti_blacklist": true,
     "signature_masking": true,
-    "stealth_mode": true,
-    "obfuscation_level": 5,
-    "memory_protection": "active"
+    "stealth_mode": true
   }
 }
