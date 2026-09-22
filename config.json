@@ -1,23 +1,32 @@
 {
-  "server_id": "v2_pro_mod",
-  "instruction_set": {
-    "esp_module": {
-      "color": "#8A2BE2",
-      "wall_hack": true,
-      "box_render": true,
-      "opacity": 0.9
-    },
-    "aimbot_module": {
-      "target": "head",
-      "lock_strength": 1.0,
-      "smooth_speed": 0.15,
-      "fov_range": 180
-    },
-    "bypass_module": {
-      "anti_blacklist": true,
-      "signature_mask": true,
-      "stealth_mode": true
-    }
+  "server_engine": {
+    "route": "/Android/data/com.dts.freefireth/files/",
+    "injection_mode": "direct_memory_write",
+    "sync_rate": "realtime"
   },
-  "sync_protocol": "direct_memory_inject"
+  "esp_module": {
+    "enabled": true,
+    "color": "#8A2BE2",
+    "wall_hack": true,
+    "box_render": "solid",
+    "opacity": 1.0,
+    "see_through_wall": true,
+    "outline_thickness": 1.5
+  },
+  "aimbot_module": {
+    "enabled": true,
+    "target_bone_id": 3201,
+    "aim_velocity": 4.5,
+    "aim_smoothness": 0.05,
+    "fov_radius": 180,
+    "auto_headshot": true,
+    "recoil_suppression": 1.0
+  },
+  "bypass_module": {
+    "anti_blacklist": true,
+    "signature_masking": true,
+    "stealth_mode": true,
+    "obfuscation_level": 5,
+    "memory_protection": "active"
+  }
 }
